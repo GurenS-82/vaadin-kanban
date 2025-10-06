@@ -1,0 +1,35 @@
+.board {
+  gap: 12px;
+}
+.column {
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 8px 8px 12px;
+}
+.note-container {
+  min-height: 360px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 8px;
+}
+.note-wrapper {
+  position: relative;
+}
+.note {
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  font-size: 14px;
+}
+.note-delete {
+  position: absolute;
+  right: 6px;
+  top: 2px;
+  cursor: pointer;
+  user-select: none;
+  padding: 0 6px;
+  font-weight: bold;
+  color: #444;
+}
+.note-delete:hover { color: #000; }

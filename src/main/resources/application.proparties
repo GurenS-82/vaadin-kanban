@@ -1,0 +1,7 @@
+# H2 をファイルDB化（ユーザーディレクトリ直下に kanbandb.mv.db 等が作成されます）
+spring.datasource.url=jdbc:h2:file:~/kanbandb;MODE=PostgreSQL;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
+spring.datasource.username=guren
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
